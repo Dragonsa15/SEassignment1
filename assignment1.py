@@ -4,7 +4,12 @@ def addition(a,b):
 def subtraction(a,b):
 	return a-b
 
-
+def Division(a,b):
+	if(b!=0):
+		return a/b
+	else:
+		return None
+		
 if __name__ == "__main__":
 	a = 3
 	b = 5
